@@ -1,0 +1,15 @@
+# Local config files (do not commit secrets)
+vt_config.local.json
+vt_config.json
+.vt_usage.json
+out/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
+

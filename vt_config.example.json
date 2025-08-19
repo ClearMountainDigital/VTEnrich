@@ -1,0 +1,13 @@
+{
+  "api_key": "PUT_YOUR_VIRUSTOTAL_API_KEY_HERE",
+  "rate_per_min": 4,
+  "timeout": 30,
+  "relationships": false,
+  "relationships_limit": 5,
+  "daily_cap": 500,
+  "monthly_cap": 15500,
+  "usage_state_file": ".vt_usage.json"
+  ,"output_dir": "out"
+  ,"logs_dir": "logs"
+}
+
