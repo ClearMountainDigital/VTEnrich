@@ -5,6 +5,9 @@ vt_config.json
 out/
 logs/
 
+# Checkpoint sidecars from interrupted runs
+*.checkpoint.json
+
 # Python
 __pycache__/
 *.pyc

@@ -1,13 +1,30 @@
 {
   "api_key": "PUT_YOUR_VIRUSTOTAL_API_KEY_HERE",
+  "urlscan_api_key": "PUT_YOUR_URLSCAN_API_KEY_HERE",
+
   "rate_per_min": 4,
   "timeout": 30,
   "relationships": false,
   "relationships_limit": 5,
+
   "daily_cap": 500,
   "monthly_cap": 15500,
-  "usage_state_file": ".vt_usage.json"
-  ,"output_dir": "out"
-  ,"logs_dir": "logs"
-}
+  "usage_state_file": ".vt_usage.json",
+  "output_dir": "out",
+  "logs_dir": "logs",
 
+  "ioc_col": "Query",
+  "default_type": "domain",
+
+  "use_urlscan": true,
+  "urlscan_submit_missing": true,
+  "urlscan_visibility": "unlisted",
+  "urlscan_stale_days": 90,
+
+  "urlscan_search_daily_cap": 1000,
+  "urlscan_search_minute_cap": 120,
+  "urlscan_submit_daily_cap": 1000,
+  "urlscan_submit_hourly_cap": 100,
+  "urlscan_submit_minute_cap": 60,
+  "urlscan_retrieve_daily_cap": 10000
+}
